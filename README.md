@@ -48,6 +48,7 @@ Explanation:
 We can say that each token is worth 13 “units” and each bill is worth 10 “units”.
 
 “Units” each person has:
+
 • John has 3 tokens and 10 bills which equates to 3 * 13 + 10 * 10 units = 139 units
 
 • Jacob has 7 tokens and 7 bills which equates to 7 * 13 + 7 * 10 units = 161 units
@@ -59,6 +60,7 @@ We can say that each token is worth 13 “units” and each bill is worth 10 “
 • Phil has 3 tokens and 10 bills which equates to 11 * 13 + 4 * 10 units = 183 units
 
 Results:
+
 • Phil has paid the most.
 
 • Jacob is second.
