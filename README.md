@@ -45,6 +45,7 @@ the input.
 Explanation:
 
 10 tokens are worth 13 bills.
+
 We can say that each token is worth 13 “units” and each bill is worth 10 “units”.
 
 “Units” each person has:
@@ -70,3 +71,41 @@ Results:
 • John is fourth.
 
 • Nancy is fifth
+
+## Sample Input: #2
+```text
+  3
+  Alice 4 8
+  Bob 9 2
+  Carol 11 0
+  6 7
+```
+
+## Sample Output: #2
+```text
+  Carol
+  Alice
+  Bob
+```
+
+Explanation:
+
+6 tokens are worth 7 bills.
+
+We can say that each token is worth 7 “units” and each bill is worth 6 “units”.
+
+“Units” each person has:
+
+• Alice has 4 tokens and 8 bills which equates to 4 * 7 + 8 * 6 units = 76 units
+
+• Bob has 9 tokens and 2 bills which equates to 9 * 7 + 2 * 6 units = 75 units
+
+• Carol has 11 tokens and 0 bills which equates to 11 * 7 + 0 * 6 units = 77 units
+
+Results:
+
+• Carol has paid the most.
+
+• Alice is second.
+
+• Bob is third
